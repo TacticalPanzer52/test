@@ -1,0 +1,68 @@
+/* Reset & basics */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #004080;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo a {
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  background: #f2f2f2;
+  padding: 40px 0;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Main blocks */
+main .content-block {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 15px 0;
+}
+footer .footer-links {
+  list-style: none;
+  display: inline-flex;
+  gap: 10px;
+}
+footer a {
+  color: #aaa;
+  text-decoration: none;
+}
