@@ -66,3 +66,35 @@ footer a {
   color: #aaa;
   text-decoration: none;
 }
+/* Dropdown Menu */
+nav ul li {
+  position: relative;
+}
+nav ul li .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* right below parent */
+  left: 0;
+  background: #004080;
+  list-style: none;
+  padding: 0;
+  min-width: 150px;
+  z-index: 1000;
+}
+nav ul li .dropdown-menu li {
+  width: 100%;
+}
+nav ul li .dropdown-menu li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li .dropdown-menu li a:hover {
+  background: #00264d;
+}
+
+/* Show dropdown on hover */
+nav ul li.dropdown:hover .dropdown-menu {
+  display: block;
+}
